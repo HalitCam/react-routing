@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 
-import './App.css';
+import './App.css';  // <link to...> a tag ine denk gelir!!
 
 function App() {
   return (
@@ -25,18 +25,20 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
-          <Route path="/about" element={About} />
+          <Route path="/about" Component={About} /> 
             
-          <Route path="/users" element={Users} />
+          <Route path="/users" element={<Users/>} />
           
-          <Route path="/" element={Home} />
+          <Route path="/" element={<Home/>} />
           
         </Routes>
       </div>
     </Router>
   );
 }
+// in Route tag Component used instead of element. Component ile element arasında fark var. Component ile bir component çağırırken element ile bir JSX elementi çağırıyoruz. Yani <Home/> gibi.
 
+// The followings componnents in folder src one Folder can be regulated
 function Home() {
   return <h2>Home</h2>;
 }
