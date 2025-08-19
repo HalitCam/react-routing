@@ -43,6 +43,8 @@ function App() {
 // in Route tag Component used instead of element. Component ile element arasında fark var. Component ile bir component çağırırken element ile bir JSX elementi çağırıyoruz. Yani <Home/> gibi.
 // <Switch> yerine <Routes> kullanılıyor. <Switch> 6.0 sürümünden sonra kaldırıldı.
 // The followings componnents in folder src one Folder can be regulated
+// Components can be imported from other files and used here.
+
 function Home() {
   return <h2>Home</h2>;
 }
