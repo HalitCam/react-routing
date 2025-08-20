@@ -1,0 +1,30 @@
+{
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggest.showWords": false,
+  "editor.suggest.showSnippets": false,
+  "editor.suggest.showFunctions": false,
+  "editor.suggest.showVariables": false,
+  "editor.suggest.showClasses": false,
+  "editor.suggest.showMethods": false,
+  "editor.suggest.showConstructors": false,
+  "editor.suggest.showFields": false,
+  "editor.suggest.showModules": false,
+  "editor.suggest.showProperty": false,
+  "editor.suggest.showEvents": false,
+  "editor.suggest.showEnumMembers": false,
+  "editor.suggest.showKeywords": false,
+  "editor.suggest.showColors": false,
+  "editor.suggest.showFiles": false,
+  "editor.suggest.showFolders": false,
+  "editor.suggest.showInterfaces": false,
+  "editor.suggest.showIssues": false,
+  "editor.suggest.showReferences": false,
+  "editor.suggest.showTypeParameters": false,
+  "editor.suggest.showUsers": false,
+  "editor.suggest.showValues": false
+}
