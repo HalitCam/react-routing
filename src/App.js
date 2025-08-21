@@ -7,7 +7,7 @@ import './App.css';  // <link to...> a tag ine denk gelir!!
 import Home from "./components/Home";
 import About from "./components/About";
 import Users from "./components/Users"; 
-import User from "./components/User"; 
+// import User from "./components/User"; 
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
             
           <Route path="/users" element={<Users/>} />
           
-          <Route path="/user/:id" element={<User/>} />
+          {/* <Route path="/user/:id" element={<User/>} /> */}
           
           
         </Routes>
