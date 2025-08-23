@@ -7,6 +7,7 @@ import './App.css';  // <link to...> a tag ine denk gelir!!
 import Home from "./components/Home";
 import About from "./components/About";
 import Users from "./components/Users"; 
+import Error404 from "./components/Error404";
 // import User from "./components/User"; 
 
 function App() {
@@ -37,7 +38,9 @@ function App() {
 
           <Route path="/about" Component={About} /> 
             
-          <Route path="/users" element={<Users/>} />
+          <Route path="/users" element={<Users/>} /> 
+
+          <Route path="*" element = {<Error404/>} />
           
           {/* <Route path="/user/:id" element={<User/>} /> */}
           
